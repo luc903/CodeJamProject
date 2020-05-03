@@ -3,6 +3,9 @@ module.exports = {
   env: {
     node: true
   },
+  dev: {
+    useEslint: false
+  },
   extends: [
     'plugin:vue/essential',
     '@vue/standard'
